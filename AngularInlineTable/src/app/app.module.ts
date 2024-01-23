@@ -1,0 +1,28 @@
+import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule,ReactiveFormsModule } from '@angular/forms';
+import { AppComponent } from './app.component';
+import { BankAccountComponent } from './bank-account/bank-account.component';
+import {HttpClientModule} from '@angular/common/http';
+import {TemplateRef} from '@angular/core';
+
+@NgModule({
+  declarations: [
+    AppComponent,
+    BankAccountComponent,
+    
+
+    
+    
+  ],
+  imports: [
+    BrowserModule,
+    FormsModule,
+    ReactiveFormsModule,
+    HttpClientModule,
+  
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
